@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HugMun.Core\HugMun.Core.csproj" />
+    <ProjectReference Include="..\HugMun.Preprocessing\HugMun.Preprocessing.csproj" />
+    <ProjectReference Include="..\HugMun.Reasoner\HugMun.Reasoning.csproj" />
+  </ItemGroup>
+
+</Project>
